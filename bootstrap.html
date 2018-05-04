@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Exercise</title>
+
+
+
+  <!-- Load Bootstrap 4 -->
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <!-- Load Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+
+  <!-- Load our stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<!-- Code goes here. -->
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Ubermelon</a>
+
+	  <!-- don't know this -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          About Ubermelon
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">About</a>
+	          <a class="dropdown-item" href="#">Contact</a>
+	          <a class="dropdown-item" href="#">Shop</a>
+	        </div>
+	      </li>
+	    </ul>
+
+
+	    <ul class="navbar-nav ml-auto">  	
+	      <li class="nav-item dropdown ">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          My Ubermelon
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Login</a>
+	          <a class="dropdown-item" href="#">Favorite Melons</a>
+	          <a class="dropdown-item" href="#">Settings</a>
+	          <a class="dropdown-item" href="#">Profile</a>
+	        </div>
+	      </li>
+
+	    </ul>
+
+	  </div>
+	</nav>
+
+	
+	<div class="container">
+		<img src="/home/user/src/bootstrap/static/egg.jpg" class="img-fluid">
+
+
+ 		<div class="row">
+		  <div class="col"> Main content here! </div>
+
+		</div>
+
+		<div class="row">
+		  <div class="col"> <h1><i class="fas fa-camera-retro"></i>Camera</h1>Left 
+		  </div>
+		  	
+		  <div class="col"> <h1><i class="fas fa-poo"></i>Poop</h1>Middle </div>
+		  	
+		  <div class="col"> <h1><i class="fas fa-user-astronaut"></i>Astronaut</h1>Right </div>
+		  	
+
+		</div>
+
+		<div class="table-responsive">
+
+			<table class="table d-none d-md-block d-lg-block">
+			  <thead>
+			    <tr>
+			      <th scope="col">#</th>
+			      <th scope="col">First</th>
+			      <th scope="col">Last</th>
+			      <th scope="col">Handle</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">1</th>
+			      <td>Mark</td>
+			      <td>Otto</td>
+			      <td>@mdo</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2</th>
+			      <td>Jacob</td>
+			      <td>Thornton</td>
+			      <td>@fat</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3</th>
+			      <td colspan="2">Larry the Bird</td>
+			      <td>@twitter</td>
+			    </tr>
+			  </tbody>
+			</table>
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+<!-- You need this in order to use JS-based components in the 
+further study. Leave this at the bottom and code above it. -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
